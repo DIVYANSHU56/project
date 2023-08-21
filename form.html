@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .signup-form {
+    background-color: #d4cbcb;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow:  2px 5px rgba(0, 0, 0, 0.1);
+    width: 300px;
+  }
+
+  .signup-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: navy;
+    font-size: 200%;
+  }
+
+  .signup-form label {
+    display: block;
+    margin-bottom: 8px;
+  }
+
+  .signup-form input[type="text"],
+  .signup-form input[type="email"],
+  .signup-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #a7a6b4;
+    border-radius: 3px;
+    margin-bottom: 15px;
+  }
+
+  .signup-form button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 3px;
+    width: 100%;
+    cursor: pointer;
+  }
+
+  .signup-form button:hover {
+    background-color: #2980b9;
+  }
+</style>
+<title>Sign Up Form</title>
+</head>
+<body>
+  <div class="signup-form">
+    <h2>Sign Up</h2>
+    <form action="#">
+
+        <label for="name">First name</label>
+        <input type="text" id="name" name="First name" required>
+
+        <label for="name">Last name</label>
+        <input type="text" id="name" name="Last name" required>
+
+
+      <label for="username">Username</label>
+      <input type="text" id="username" name="username" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" required>
+
+      <button type="submit">Sign Up</button>
+    </form>
+  </div>
+</body>
+</html>
